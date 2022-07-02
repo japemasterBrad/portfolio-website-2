@@ -52,8 +52,6 @@ nav ul a li:hover {
 
 .hero-content {
     color: var(--text);
-    position: relative;
-    right: 45px;
 }
 
 .im {
@@ -64,19 +62,22 @@ nav ul a li:hover {
     font-size: 100px;
     /* display: inline; */
     margin: 0;
+
+}
+.text-scroller {
+    font-family: "Caveat";
+    position: relative;
+    left: 435px;
+    font-size: 40px;
+    width: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .tech-stack {
     height: 800px;
     background-color: var(--purple);
     display: inline;
-}
-
-.text-scroller {
-    font-family: "Caveat";
-    position: relative;
-    left: 435px;
-    font-size: 40px;
 }
 
 .tech-stack-title {
