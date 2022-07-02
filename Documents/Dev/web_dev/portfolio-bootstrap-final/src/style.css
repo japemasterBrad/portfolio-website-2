@@ -1,0 +1,70 @@
+:root {
+    --header-height: 90px;
+    --nav-padding: 30px;
+    --purple: #875C7A;
+    --purple-highlighted: #d8accb;
+    --text: #344031;
+}
+
+.header-row {
+    height:  var(--header-height);
+    background-color: var(--purple);
+}
+
+.header-shadow {
+    background-color: var(--text);
+    height: 2px;
+    margin: 0;
+    display: block;
+}
+
+.brand img{
+    height: var(--header-height);
+    object-fit:contain;
+    position: relative;
+    left: 200px;
+}
+
+nav ul a li {
+    color: white;
+    text-decoration:wavy;
+    list-style-type: none;
+    display: flex;
+    float: left;
+    padding-left: var(--nav-padding);
+    padding-right: var(--nav-padding);
+    position: relative;
+    top: 15px;
+    left: 130px;
+}
+
+nav ul a li:hover {
+    color: var(--purple-highlighted);
+    animation-duration: 0.5s;
+}
+
+.hero-section {
+    height: 700px;
+    position: relative;
+    left: 200px;
+}
+
+.hero-content {
+    color: var(--text);
+}
+
+.tech-stack {
+    height: 700px;
+    background-color: var(--purple);
+    display: inline;
+}
+
+.name {
+    font-size: 100px;
+    display: inline;
+}
+
+.text-scroller {
+    font-family: "Caveat";
+    text-align: right;
+}
