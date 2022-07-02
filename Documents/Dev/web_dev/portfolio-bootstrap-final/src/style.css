@@ -4,6 +4,7 @@
     --purple: #875C7A;
     --purple-highlighted: #d8accb;
     --text: #344031;
+    --tech-icon-size: 250px;
 }
 
 .header-row {
@@ -22,7 +23,7 @@
     height: var(--header-height);
     object-fit:contain;
     position: relative;
-    left: 200px;
+    left: 130px;
 }
 
 nav ul a li {
@@ -35,7 +36,7 @@ nav ul a li {
     padding-right: var(--nav-padding);
     position: relative;
     top: 15px;
-    left: 130px;
+    left: 50px;
 }
 
 nav ul a li:hover {
@@ -51,20 +52,57 @@ nav ul a li:hover {
 
 .hero-content {
     color: var(--text);
+    position: relative;
+    right: 45px;
 }
 
-.tech-stack {
-    height: 700px;
-    background-color: var(--purple);
-    display: inline;
+.im {
+    margin: 0;
 }
 
 .name {
     font-size: 100px;
+    /* display: inline; */
+    margin: 0;
+}
+
+.tech-stack {
+    height: 800px;
+    background-color: var(--purple);
     display: inline;
 }
 
 .text-scroller {
     font-family: "Caveat";
-    text-align: right;
+    position: relative;
+    left: 435px;
+    font-size: 40px;
+}
+
+.tech-stack-title {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 60px;
+    color: white;
+}
+
+.tech-icons {
+    margin-top: 50px;
+    display: inline-flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.tech-icon {
+    background-color: white;
+    height: var(--tech-icon-size);
+    width: var(--tech-icon-size);
+    margin: 20px;
+    border-radius: 100%;
+}
+
+.tech-stack p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
 }
