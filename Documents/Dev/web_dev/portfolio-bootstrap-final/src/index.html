@@ -6,6 +6,9 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
 
@@ -41,9 +44,8 @@
             <div class="col hero-section">
                 <div class="hero-content" style="padding: 150px;">
                     <h1 class="hero-contents im">I'm</h1>
-                    <h1 class="name" id="name">Bradley Thomas</h1>
-                    <h2 class="text-scroller">Software Developer</h2>
-
+                    <h1 class="name">Bradley Thomas</h1>
+                    <h2 id="text-scroller">Software Developer</h2>
                 </div>
             </div>
         </div>
@@ -51,23 +53,47 @@
 
 
     <div class="container-fluid tech">
-        <div class="row">
+        <div class="row tech-row">
             <div class="col tech-stack">
-                <h1 class="tech-stack-title">Tech Stack</h1>
+                <h1 class="tech-stack-title heading">Tech Stack</h1>
                 <p>These are the libraries I know</p>
-                <div class="tech-icons">
-                    <div class="tech-icon"></div>
-                    <div class="tech-icon"></div>
-                    <div class="tech-icon"></div>
-                    <div class="tech-icon"></div>
-                    <div class="tech-icon"></div>
-                    <div class="tech-icon"></div>
-                    <div class="tech-icon"></div>
-                    <div class="tech-icon"></div>
+
+                <div class="container tech icon-grid">
+                    <div class="row">
+                        <div class="col-1 icons"></div>
+                        <div class="col-1 icons"></div>
+                        <div class="col-1 icons"></div>
+                        <div class="col-1 icons"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 icons"></div>
+                        <div class="col-1 icons"></div>
+                        <div class="col-1 icons"></div>
+                        <div class="col-1 icons"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <div class="container-fluid projects">
+        <div class="row">
+            <div class="col">
+                <h1 class="projects-title heading">Projects</h1>
+                <p>Past projects, hosted on GitHub</p>
+
+                <div class="container tech icon-grid">
+                    <div class="row one">
+                        <div class="col-1 icons"></div>
+                        <div class="col-1 icons"></div>
+                        <div class="col-1 icons"></div>
+                        <div class="col-1 icons"></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
